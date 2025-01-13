@@ -8,11 +8,9 @@ public class Main {
         for (int num : array) {
             set.add(num);
         }
-        int[] uniqueArray = new int[set.size()];
-        int index =0;
-        for (int num : set) {
-            uniqueArray[index++] = num;
+        for(int num: set)
+        {
+        System.out.println ("Array without duplicates:" + num);    
         }
-        System.out.println ("Array without duplicates:" + Arrays.toString(uniqueArray));
     }
 }
