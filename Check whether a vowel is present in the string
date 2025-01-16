@@ -1,0 +1,9 @@
+public class Main {
+    public static void main (String[]args) {
+        System.out.println (stringContainVowels("Hey"));
+        System.out.println (stringContainVowels("Tv"));
+    }
+    public static boolean stringContainVowels (String input) {
+        return input.toLowerCase ().matches(".*[aeiou].*");
+    }
+}
